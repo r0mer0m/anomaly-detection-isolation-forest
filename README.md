@@ -6,12 +6,12 @@ This repository includes an implementation of Isolation Forest in Python and som
 
 ## Developement
 
-- [ ] Algorithm
-  - [ ]
-- [ ] Example
-  - [ ]
-- [ ] Images
-
+- [X] Algorithm
+  - [X] Isolation Forest fit.
+  - [X] Isolation Forest predict.
+  - [X] Threshold, FPR for specific TPR.
+- [X] Example
+- [X] Images
 
 ## The algorithm
 
@@ -49,5 +49,5 @@ A bit more technical notes:
 
 * The more observation is an anomaly the sooner it will be isolated in the different trees. To compute "how soon" the authors use some maths that takes into account the maximum expected length of the trees. As a side note, the splits in each dimension are computed using a uniform / discrete uniform distribution.
 
-This example was provided by [Terrence Part](https://github.com/parrt) in the [MSDS at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science).
+This example was provided by [Terrence Part](https://github.com/parrt) in the [MSDS at the University of San Francisco](https://www.usfca.edu/arts-sciences/graduate-programs/data-science). The testing function was provided by the instructor.
 
