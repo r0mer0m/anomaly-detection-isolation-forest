@@ -7,8 +7,8 @@ This repository includes an implementation of Isolation Forest in Python and som
 ## Developement
 
 - [X] Algorithm
-  - [X] Isolation Forest fit.
-  - [X] Isolation Forest predict.
+  - [X] Isolation Forest - fit.
+  - [X] Isolation Forest - predict.
   - [X] Threshold, FPR for specific TPR.
 - [X] Example
 - [X] Images
